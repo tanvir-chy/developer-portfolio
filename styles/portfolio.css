@@ -1,0 +1,57 @@
+/* font adding */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title .ma {
+
+ color: #181818;
+ font-size: 45px;
+ font-weight: 800;
+
+}
+
+.nav-title .r {
+ color: #FD6E0A;
+ font-size: 45px;
+ font-weight: 800;
+}
+
+.nav-title .y {
+ color: #181818;
+ font-size: 45px;
+ font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn-primary {
+    background: #FD6E0A; 
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
